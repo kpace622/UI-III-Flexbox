@@ -31,9 +31,9 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+/* ol, ul {
 	list-style: none;
-}
+} */
 blockquote, q {
 	quotes: none;
 }
@@ -79,8 +79,6 @@ body {
 .nav-bar a {
 	text-decoration: none;
 	color: lightgray;
-	/* margin: 2%;
-	padding: 2% */
 }
 
 .content-box {
@@ -143,8 +141,12 @@ body {
 
 footer {
 	width: 100%;
-	border-top: 1px solid black;
+	
 	margin: 5px;
+}
+
+.home-page {
+	border-top: 1px solid black;
 }
 
 h2 {
@@ -162,6 +164,47 @@ footer p {
 }
 
 .learn {
+	padding: 10px 40px;
 	border: 1px solid black;
-	width: 10%;
+	width: 160px;
+	margin: 20px;
 }
+
+.services-header-img {
+	width: 100%;
+}
+
+hr {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.service-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+}
+
+.service-heading {
+	width: 48%;
+	padding: 0px 20px;
+	border: 1px solid black;
+	margin: 15px 0px;
+}
+
+.service-bottom-section {
+	display: flex;
+	flex: wrap;
+	justify-content: space-between;
+}
+
+.service-heading-bottom {
+	width: 48%;
+	
+}
+
+.services-info-img {
+	width: 48%;
+}
+
