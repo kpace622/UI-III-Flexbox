@@ -208,3 +208,26 @@ hr {
 	width: 48%;
 }
 
+.products-page {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+}
+.products-header {
+	margin-top: 40px;
+	width: 30%;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+ul {
+	list-style-position: inside;
+}
+
+.mission {
+	border: 1px solid black;
+	padding: 10px;
+	margin-top: 20px;
+	
+}
